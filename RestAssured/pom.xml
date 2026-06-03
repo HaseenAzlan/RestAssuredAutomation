@@ -43,8 +43,7 @@
 <dependency>
     <groupId>io.rest-assured</groupId>
     <artifactId>rest-assured</artifactId>
-    <version>6.0.0</version>
-    <scope>test</scope>
+    <version>5.5.6</version>
 </dependency>
 <dependency>
     <groupId>org.testng</groupId>

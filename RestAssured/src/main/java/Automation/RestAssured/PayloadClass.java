@@ -1,7 +1,7 @@
-package files;
+package Automation.RestAssured;
 
-public class AddplacePayload {
-	public static String payload() {
+public class PayloadClass {
+	public static String payloadForPost() {
 		return "{\r\n"
 				+ "  \"location\": {\r\n"
 				+ "    \"lat\": -38.383494,\r\n"
@@ -20,5 +20,16 @@ public class AddplacePayload {
 				+ "}\r\n"
 				+ "" ;
 	}
+	
+	public static String payloadForPut(String placeID, String expectedAddress) {
+		
+		return "{\r\n"
+				+ "\"place_id\":\""+placeID+"\",\r\n"
+				+ "\"address\":\""+expectedAddress+"\",\r\n"
+				+ "\"key\":\"qaclick123\"\r\n"
+				+ "}";
+	}
+	
+	
 
 }

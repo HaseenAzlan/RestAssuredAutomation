@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-06-15T19:18:35 IST" name="Default suite" finished-at="2026-06-15T19:18:36 IST" duration-ms="1303">
+    <groups>
+    </groups>
+    <test started-at="2026-06-15T19:18:35 IST" name="Default test" finished-at="2026-06-15T19:18:36 IST" duration-ms="1303">
+      <class name="Automation.RestAssured.ComplexJson">
+        <test-method signature="firstCourse()[pri:0, instance:Automation.RestAssured.ComplexJson@1a482e36]" started-at="2026-06-15T19:18:35 IST" name="firstCourse" finished-at="2026-06-15T19:18:36 IST" duration-ms="1001" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstCourse -->
+        <test-method signature="noOfCourses()[pri:0, instance:Automation.RestAssured.ComplexJson@1a482e36]" started-at="2026-06-15T19:18:36 IST" name="noOfCourses" finished-at="2026-06-15T19:18:36 IST" duration-ms="132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- noOfCourses -->
+        <test-method signature="purchaseAmount()[pri:0, instance:Automation.RestAssured.ComplexJson@1a482e36]" started-at="2026-06-15T19:18:36 IST" name="purchaseAmount" finished-at="2026-06-15T19:18:36 IST" duration-ms="38" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseAmount -->
+        <test-method signature="sumOfAllCourses()[pri:0, instance:Automation.RestAssured.ComplexJson@1a482e36]" started-at="2026-06-15T19:18:36 IST" name="sumOfAllCourses" finished-at="2026-06-15T19:18:36 IST" duration-ms="77" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sumOfAllCourses -->
+      </class> <!-- Automation.RestAssured.ComplexJson -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

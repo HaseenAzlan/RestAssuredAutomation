@@ -67,6 +67,7 @@ public class ComplexJson {
 			System.out.println("prices are not same");
 			System.out.println(purchaseAmount);
 			System.out.println(amount);
+			System.out.println("****************");
 		}
 	}
 	

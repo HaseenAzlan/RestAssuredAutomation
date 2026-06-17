@@ -16,6 +16,7 @@ public void addBook(String isbn, String aisle) {
 	when().post("Library/Addbook.php").
 	then().log().all().assertThat().statusCode(200).
 	body("Msg", equalTo("successfully added"));
+	System.out.println("******************");
 	}
 @DataProvider(name="addBookData")
 public Object[][] getdata(){

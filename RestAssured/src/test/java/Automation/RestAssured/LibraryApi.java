@@ -32,8 +32,9 @@ public void addbookStatic() throws IOException {
 	when().post("Library/Addbook.php").
 	then().log().all().assertThat().statusCode(200).
 	body("Msg", equalTo("successfully added"));
-	
 	System.out.println("******************");
+	
+	System.out.println("$$$$$$$$$$$$$$$$$$$$$$$$$");
 	}
 }
 

@@ -35,6 +35,8 @@ public void addbookStatic() throws IOException {
 	System.out.println("******************");
 	
 	System.out.println("$$$$$$$$$$$$$$$$$$$$$$$$$");
+	
+	System.out.println("++++++++++++++++++++++++++++++");
 	}
 }
 

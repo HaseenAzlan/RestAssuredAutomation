@@ -1,60 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-06-17T18:28:16 IST" name="Default suite" finished-at="2026-06-17T18:28:19 IST" duration-ms="2708">
+  <suite started-at="2026-06-17T18:40:46 IST" name="Default suite" finished-at="2026-06-17T18:40:49 IST" duration-ms="2703">
     <groups>
     </groups>
-    <test started-at="2026-06-17T18:28:16 IST" name="Default test" finished-at="2026-06-17T18:28:19 IST" duration-ms="2708">
+    <test started-at="2026-06-17T18:40:46 IST" name="Default test" finished-at="2026-06-17T18:40:49 IST" duration-ms="2703">
       <class name="Automation.RestAssured.LibraryApi">
-        <test-method signature="addBook(java.lang.String,java.lang.String)[pri:0, instance:Automation.RestAssured.LibraryApi@35d019a3]" started-at="2026-06-17T18:28:16 IST" name="addBook" data-provider="addBookData" finished-at="2026-06-17T18:28:19 IST" duration-ms="2385" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Azlanm]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[1812]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="addbookStatic()[pri:0, instance:Automation.RestAssured.LibraryApi@77fbd92c]" started-at="2026-06-17T18:40:46 IST" name="addbookStatic" finished-at="2026-06-17T18:40:49 IST" duration-ms="2649" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- addBook -->
-        <test-method signature="addBook(java.lang.String,java.lang.String)[pri:0, instance:Automation.RestAssured.LibraryApi@35d019a3]" started-at="2026-06-17T18:28:19 IST" name="addBook" data-provider="addBookData" finished-at="2026-06-17T18:28:19 IST" duration-ms="128" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Haseena]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[1012]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addBook -->
-        <test-method signature="addBook(java.lang.String,java.lang.String)[pri:0, instance:Automation.RestAssured.LibraryApi@35d019a3]" started-at="2026-06-17T18:28:19 IST" name="addBook" data-provider="addBookData" finished-at="2026-06-17T18:28:19 IST" duration-ms="140" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Altaf]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[1112]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addBook -->
+        </test-method> <!-- addbookStatic -->
       </class> <!-- Automation.RestAssured.LibraryApi -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
